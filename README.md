@@ -22,7 +22,8 @@ Build a Personal Portfolio Website with Django
 2. run `python -m venv venv`
 3. run `source venv/Scripts/activate` or `source venv/bin/activate` for linux
 4. run `pip install Django`
-5. run
+5. run 
+```
     a. python manage.py makemigrations projects
     b. python manage.py migrate projects
     c. python manage.py shell (will output python interperter)
@@ -30,6 +31,7 @@ Build a Personal Portfolio Website with Django
     e. p1 = Project(title='My First Project',description='A web development project.',technology='Django',image='img/project1.png')
        p1.save()
     f. and the same for p2 and p3 then exit()       
+```
 
 5. run `python manage.py runserver`
 6. if you want to change IP and port  `python manage.py runserver new_ip:port` and you need to add IP to settings.py ALLOWED_HOSTS=['']
