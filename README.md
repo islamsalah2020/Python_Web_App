@@ -21,7 +21,7 @@ Build a Personal Portfolio Website with Django
 1. clone project and run `git checkout origin/projects` after change dir inside the cloned repo
 2. run `python -m venv venv`
 3. run `source venv/Scripts/activate` or `source venv/bin/activate` for linux
-4. run `pip install Django`
+4. run `pip install Django` or `pip3 install Django==2.1.*`
 5. run 
 ```
     a. python manage.py makemigrations projects
