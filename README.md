@@ -33,6 +33,7 @@ Build a Personal Portfolio Website with Django
     f. and the same for p2 and p3 then exit()       
 ```
 
-5. run `python manage.py runserver`
-6. if you want to change IP and port  `python manage.py runserver new_ip:port` and you need to add IP to settings.py ALLOWED_HOSTS=['']
+
+5. if you want to change IP and port  `python manage.py runserver new_ip:port` and you need to add IP to settings.py ALLOWED_HOSTS=['']
+6. run `python manage.py runserver` 
 7. access your website: [localhost:8000](http://localhost:8000/)
